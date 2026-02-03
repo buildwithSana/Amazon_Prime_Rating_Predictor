@@ -4,13 +4,10 @@ An end-to-end Machine Learning pipeline designed to predict whether a movie or T
 
 ***Project Highlights***
 
-High Accuracy: Achieved a final model accuracy of 92% using optimized LightGBM.
-
-Data Balancing: Successfully handled a highly imbalanced dataset (113k average titles vs. 10k hits) using SMOTE.
-
-Explainable AI: Integrated SHAP (SHapley Additive exPlanations) to identify that Popularity and Runtime are the primary drivers of content ratings.
-
-Production Ready: Final model is serialized via joblib for immediate deployment into business dashboards.
+1. High Accuracy: Achieved a final model accuracy of 92% using optimized LightGBM.
+2. Data Balancing: Successfully handled a highly imbalanced dataset (113k average titles vs. 10k hits) using SMOTE.
+3. Explainable AI: Integrated SHAP (SHapley Additive exPlanations) to identify that Popularity and Runtime are the primary drivers of content ratings.
+4. Production Ready: Final model is serialized via joblib for immediate deployment into business dashboards.
 
 ***Tech Stack***
 
