@@ -11,43 +11,31 @@ An end-to-end Machine Learning pipeline designed to predict whether a movie or T
 
 ***Tech Stack***
 
-Language: Python 3.12
-
-Libraries: Pandas, NumPy, Matplotlib, Seaborn
-
-ML Algorithms: Random Forest, XGBoost, LightGBM
-
-Optimization: GridSearchCV, RandomizedSearchCV
-
-Evaluation: Precision, Recall, F1-Score, Confusion Matrix
+1. Language: Python 3.12
+2. Libraries: Pandas, NumPy, Matplotlib, Seaborn
+3. ML Algorithms: Random Forest, XGBoost, LightGBM
+4. Optimization: GridSearchCV, RandomizedSearchCV
+5. Evaluation: Precision, Recall, F1-Score, Confusion Matrix
 
 ***Business Impact***
 
-Risk Mitigation: High Precision scores ensure Amazon Prime avoids over-investing in titles predicted to be low-rated.
-
-Content Discovery: Strong Recall allows the platform to identify "Hidden Gems" that might otherwise be overlooked.
-
-Data-Driven Strategy: Replaces intuition-based acquisition with a mathematical framework, optimizing content budgets for maximum subscriber satisfaction.
+1. Risk Mitigation: High Precision scores ensure Amazon Prime avoids over-investing in titles predicted to be low-rated.
+2. Content Discovery: Strong Recall allows the platform to identify "Hidden Gems" that might otherwise be overlooked.
+3. Data-Driven Strategy: Replaces intuition-based acquisition with a mathematical framework, optimizing content budgets for maximum subscriber satisfaction.
 
 ***Dataset Information***
 
 The analysis utilized two primary datasets:
-
-titles.csv: Metadata regarding movies and shows (Runtime, Genres, IMDb Scores).
-
-credits.csv: Information regarding cast and crew popularity.
+1. titles.csv: Metadata regarding movies and shows (Runtime, Genres, IMDb Scores).
+2. credits.csv: Information regarding cast and crew popularity.
 
 ***Implementation Workflow***
 
-Data Cleaning: Handled missing values and filtered non-numeric identifiers.
-
-Feature Engineering: Created targeted features like genre_count and normalized tmdb_popularity.
-
-Class Balancing: Applied SMOTE to synthesize minority class samples and prevent model bias.
-
-Hyperparameter Tuning: Used GridSearchCV to fine-tune the num_leaves and learning_rate for the final LightGBM model.
-
-Validation: Performed cross-validation to ensure the model generalizes well to unseen content.
+1. Data Cleaning: Handled missing values and filtered non-numeric identifiers.
+2. Feature Engineering: Created targeted features like genre_count and normalized tmdb_popularity.
+3. Class Balancing: Applied SMOTE to synthesize minority class samples and prevent model bias.
+4. Hyperparameter Tuning: Used GridSearchCV to fine-tune the num_leaves and learning_rate for the final LightGBM model.
+5. Validation: Performed cross-validation to ensure the model generalizes well to unseen content.
 
 ***Final Model Performance***
 
